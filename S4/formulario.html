@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <label for="nombre">Mi nombre es </label>
+        <input type="text"  id="nombre" 
+        placeholder="Ingrese aqui su nombre  " 
+        minlength="4" required>
+
+        <label for="nombre">Mi email es </label>
+        <input type="email"  id="email" 
+        placeholder="Ingrese aqui su email  " 
+         required>
+        <br><br>
+        <label for="contrasena">contraseña</label>
+        <input type="password" id="Contraseña">
+        <br><br>
+        
+        <label for="number">cantidad</label>
+        <input type="number" id="Cantiad">
+        <br><br>
+        <label for="fecha">fecha</label>
+        <input type="date" id="fecha" required>
+        <br><br>
+        <label for="Distrito">distrito</label>
+        <select>
+        <option> Miraflores</option>
+        <option> vmt</option>
+        <option selected> Cercado de lima </option>
+        </select>
+        <br><br>
+        <label> Sugerencias </label>
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <label>Genero</label>
+        <input type="radio" name="Genero" id="">Masculino
+        <input type="radio" name="Genero" id="">Femenino
+        <br>
+        <label ><input type="checkbox" > Acepta terminos y condiciones </label>
+          
+
+        <br><br>
+        <input type="submit" value="Enviar" >
+        <input type="reset"value="Limpiar" >
+
+    </form>
+</body>
+</html>
